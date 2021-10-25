@@ -1,0 +1,98 @@
+/*
+/*
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+
+.main-color {
+  color: #fff;
+  background-color: #01b3e6;
+  border-color: #01b3e6;
+  box-shadow: none;
+}
+.main-color:hover{
+  background: #0b97bf;
+  color: #fff !important;
+  border-color: #0b97bf;
+}
+.ln-more-color {
+  color: #01b3e6;
+}
+.ln-more-color:hover{
+  color: #0b97bf;
+}
+
+.second-color {
+  /* color: #fff; */
+  background-color: #214e6f;
+  border-color: #214e6f;
+  box-shadow: none;
+}
+.img-bg-color{
+   background-color: #214e6f;
+}
+
+.active{
+  color: rgb(44 48 56) !important;
+  font-weight: bolder;
+
+}
+
+@media (max-width: 767.98px){
+  .mobile-btn {
+    font-size: 1.1rem;
+    padding: 0.625rem 1.5rem;
+  }
+
+}
+
+.pbottom-5{
+    padding-bottom: 15px !important;
+}
+h1.d-inline-flex.h2.mb-8pt {
+    margin-bottom: 0 !important;
+}
+.mt5{
+    margin-top:5px !important;
+}
+.logo-size{
+    width:185px;
+}
+.partnerBtn {
+    justify-content: unset;
+    display: flex;
+    align-items: flex-end;
+}
+.partnerBtn .btn{
+    padding: 12px 30px;
+}
+.custom-card .media-body{
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.measure-paragraph {
+    max-width: 456px;
+    margin-bottom: 5px !important;
+}
+
+
+
+/******** Media ************/
+
+@media only screen and (max-width:767px){
+.halllenBox h1{
+    font-size: 22px;
+}
+.partnerBtn {
+    justify-content: center;
+    display: block;
+    margin-top: 15px;
+}
+
+
+}
